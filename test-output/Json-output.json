@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 321700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DealsDefinitionWithMap.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Free CRM create contact Scenario",
+        "description": "",
+        "id": "free-crm-create-contact-feature;free-crm-create-contact-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 97700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DealsDefinitionWithMap.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8352668400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "DealsDefinitionWithMap.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81876400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "DealsDefinitionWithMap.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383042200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DealsDefinitionWithMap.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "groupautomation",
+                  "test@12345"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3943358600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "DealsDefinitionWithMap.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7351900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on home page",
+            "match": {
+              "location": "DealsDefinitionWithMap.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1538701600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user moves to deals page",
+            "match": {
+              "location": "DealsDefinitionWithMap.user_moves_to_deals_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6594006300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters deals details",
+            "match": {
+              "location": "DealsDefinitionWithMap.user_enters_deals_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "deal name",
+                  "amount",
+                  "probability"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Big deal",
+                  "10000",
+                  "50"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "small deall",
+                  "3000",
+                  "90"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1006898400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close the browser",
+            "match": {
+              "location": "DealsDefinitionWithMap.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM create contact Feature",
+    "description": "",
+    "id": "free-crm-create-contact-feature",
+    "keyword": "Feature",
+    "uri": "/Users/gurushan/eclipse-workspace/FreeCRMTestCucumber/src/main/java/features/DealspagewithMap.feature"
+  }
+]
